@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.webpage {
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.slide {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20%;
+    gap: 50px;
+    color: #FCFCFC;
+    scroll-snap-align: start;
+}
+
+.slide h1 {
+    font-size: 70px;
+    text-align: center;
+    color: #FCFCFC;
+}
+
+.s1 {
+    background: url('../assets/bg/background1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.s2 {
+    background: url('../assets/bg/background2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.s3 {
+    background: url('../assets/bg/background3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.s4 {
+    background: url('../assets/bg/background4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.s5 {
+    background: url('../assets/bg/background5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.s6 {
+    background: url('../assets/bg/background6.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.footer_accueil {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    gap: 50px;
+    color: #FCFCFC;
+    scroll-snap-align: start;
+    color:#FCFCFC;
+    background-color:#171D1C;
+}
+  
+.footer_accueil h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+}
+
+.footer_accueil ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+}
+
+.footer_accueil ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+}
+
+.footer_accueil ul a:hover {
+    opacity:0.8;
+}
+
+.footer_accueil .container .row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.separator {
+    padding: 0 2vw;
+}
+
+.footer_accueil .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+}

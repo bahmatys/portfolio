@@ -1,0 +1,54 @@
+.p {
+    padding: 1vh 2vw;
+}
+
+.lettre {
+    margin: 2% 5%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.titre h1 {
+    font-size: 3em;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.titre p {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.titre {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    height: 20%;
+    overflow: hidden;
+}
+
+.titre img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.titre h1, .titre p {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.7); /* Ombre pour le texte */
+}
